@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Register</title>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Registrasi</h1>
+        <form>
+            <table>
+                <tr>
+                    <td><label for="fname"><b>Masukkan Nama Anda</b></label></td>
+                    <td>:</td>
+                    <td><input type="text" id="fname" name="fname" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email"><b>Masukkan Email Anda</b></label></td>
+                    <td>:</td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="pwd"><b>Masukkan Password</b></label></td>
+                    <td>:</td>
+                    <td><input type="password" id="pwd" name="pwd" required></td>
+                </tr>
+                <tr>
+                    <td><label for="phone"><b>Masukkan Nomor Telepon</b></label></td>
+                    <td>:</td>
+                    <td><input type="tel" id="phone" name="phone" placeholder="+62" pattern="^\+62[0-9]{9,13}$" required></td>
+                </tr>
+                <tr>
+                    <td><label for="datemin"><b>Masukkan Tanggal Lahir Anda</b></label></td>
+                    <td>:</td>
+                    <td><input type="date" id="datemin" name="datemin" required></td>
+                </tr>
+            </table>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
